@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding: 0px 20px;
+}
+.table-section {
+    overflow-y: scroll;
+    max-height: 30rem !important;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.table {
+    min-width: max-content;
+    padding: 2rem !important;
+}
+
+thead tr td {
+    font-size: 12px;
+    position: sticky !important;
+    top: -1px;
+    background-color: #F0F0F0 !important;
+    z-index: 10;
+    padding: 7px !important;
+}
+
+.table-width {
+    width: 150px !important;
+}
+
+thead tr td i {
+    color: rgb(175, 170, 170);
+    position: absolute;
+    top: 38%;
+    right: 2%;
+}
+
+thead tr td i:hover {
+    color: rgb(108, 105, 105);
+}
+
+td {
+    font-size: 11px;
+    padding: 3px 5px !important;
+    position: relative;
+    width: 80px !important;
+}
+
+.caret i {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    color: rgb(206, 210, 213);
+}
+
+.caret i:hover {
+    color: rgb(87, 88, 90);
+}
+
+.checkbox {
+    height: 100%;
+    padding: 6px 0px 0px 0px !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f7f8;
+}
+
+th {
+    background-color: #F0F0F0 !important;
+    padding: 0rem !important;
+    text-align: center;
+}
